@@ -11,6 +11,8 @@ Target Server Version : 50173
 File Encoding         : 65001
 
 Date: 2017-11-06 11:19:34
+注意：mysql5.1.4以下版本需要这样写：
+KEY `index_title` (`title`) USING BTREE--》KEY `index_title` USING BTREE(`title`)
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -54,6 +56,7 @@ CREATE TABLE `blog_note` (
   `blog_comment` int(255) DEFAULT NULL COMMENT '评论数',
   PRIMARY KEY (`id`),
   KEY `index_title` (`title`) USING BTREE
+  -- KEY `index_title` USING BTREE(`title`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
@@ -139,6 +142,7 @@ CREATE TABLE `blog_user` (
   `user_status` char(1) DEFAULT NULL COMMENT '0 用户注销，1 普通用户  , 2后台管理员  ，',
   PRIMARY KEY (`user_id`),
   UNIQUE KEY `index_status` (`user_phone`,`user_status`) USING BTREE
+  -- UNIQUE KEY `index_status` USING BTREE(`user_phone`,`user_status`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
