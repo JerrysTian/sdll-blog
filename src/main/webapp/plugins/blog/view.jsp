@@ -16,7 +16,7 @@
 <body >
 	<div class="blog-content">
 		<div class="blog-head">
-			<a href="${basePath }/blog"><span>闪电拉拉的网络日志 » 档案</span></a>
+			<a href="${basePath }/blog"><span>JerrysTian的网络日志 » 档案</span></a>
 			<div class="searchbox">
 				<input type="text" />
 				<a href="javascript:void(0)" class="search-btn"></a>
@@ -70,7 +70,7 @@
 				<!-- 评论框 -->
 			</div>
 		</div>
-		<p class="copyright"><a href="javascript:void(0)">联系方式</a> | 版权所有，保留一切权利！  2017闪电拉拉</p>
+		<p class="copyright"><a href="javascript:void(0)">联系方式</a> | 版权所有，保留一切权利！  2017JerrysTian</p>
 	</div>
 </body>
 </html>

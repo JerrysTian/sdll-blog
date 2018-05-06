@@ -1,4 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8" isELIgnored="false"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
@@ -7,7 +8,7 @@
 <c:set var="basePath" value="${pageContext.request.contextPath}" />
 <html>
 <head>
-<title>闪电拉拉的网络日志</title>
+<title>JerrysTian的网络日志</title>
 <link href="${basePath }/resource/css/style.css" rel="stylesheet">
 <link rel="icon" href="${basePath }/resource/image/favicon.ico"
 	type="image/x-icon">
@@ -18,10 +19,10 @@
 <body>
 	<div class="blog-content">
 		<div class="blog-head">
-			<span>闪电拉拉的网络日志</span>
+			<span>JerrysTian的网络日志</span>
 			<div class="searchbox">
-				<input type="text" /> <a href="javascript:void(0)"
-					class="search-btn"></a>
+				<input type="text" /> 
+				<a href="javascript:void(0)" class="search-btn"></a>
 			</div>
 		</div>
 		<div class="blog-middle">
@@ -87,7 +88,7 @@
 			</div>
 		</div>
 		<p class="copyright">
-			<a href="javascript:void(0)">联系方式</a> | 版权所有，保留一切权利！ 2017闪电拉拉
+			<a href="javascript:void(0)">联系方式</a> | 版权所有，保留一切权利！ 2017 JerrysTian
 		</p>
 	</div>
 </body>

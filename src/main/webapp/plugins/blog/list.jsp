@@ -3,7 +3,7 @@
 <%@include file="/common/common.jsp" %>
 <html>
 <head>
-    <title>闪电拉拉的网络日志</title>
+    <title>JerrysTian的网络日志</title>
 	<link href="${basePath }/resource/css/style.css" rel="stylesheet">
 	<link rel="icon" href="${basePath }/resource/image/favicon.ico" type="image/x-icon">
     <script type="text/javascript">
@@ -13,7 +13,7 @@
 <body >
 	<div class="blog-content">
 		<div class="blog-head">
-			<span>闪电拉拉的网络日志</span>
+			<span>JerrysTian的网络日志</span>
 			<div class="searchbox">
 				<input type="text" />
 				<a href="javascript:void(0)" class="search-btn"></a>
@@ -70,7 +70,7 @@
 				</div>
 			</div>
 		</div>
-		<p class="copyright"><a href="javascript:void(0)">联系方式</a> | 版权所有，保留一切权利！  2017闪电拉拉</p>
+		<p class="copyright"><a href="javascript:void(0)">联系方式</a> | 版权所有，保留一切权利！  2017JerrysTian</p>
 	</div>
 </body>
 </html>
